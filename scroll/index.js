@@ -10,7 +10,7 @@ document.querySelectorAll(".js-horizontal-scroll").forEach((el) => {
 
 		if ((atLeftEnd && scrollingUp) || (atRightEnd && scrollingDown)) {
 			// 스크롤이 양 끝에 있고 사용자가 해당 방향으로 계속 스크롤하려고 하면,
-			// 이벤트의 기본 동작을 수행하여 수직 스크론을 허용합니다.
+			// 이벤트의 기본 동작을 수행하여 수직 스크롤을 허용합니다.
 			return;
 		}
 
