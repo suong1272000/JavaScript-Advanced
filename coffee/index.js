@@ -10,4 +10,5 @@ const order = new Promise((res, rej) => {
 
 const done = (user) =>
 	(document.querySelector(".box").innerHTML = `${user} 주문 완료`);
+
 order.then(done);
